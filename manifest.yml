@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Z2CSJA
+  host: Z2CSJA
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Speech to Text-cg
+  - Text to Speech-96
+  - Natural Language Classifier-5h
